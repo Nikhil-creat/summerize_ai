@@ -1,4 +1,4 @@
-// OmniParse AI — Designed and Developed by Nikhil Chary Sriramoju
+// OmniParse AI — Designed and Developed by NIKHIL CHARY SRIRAMOJU 
 const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
 const S={files:[],text:'',sum:'',kw:[]};
 const esc=t=>t.replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'})[c]);
@@ -75,7 +75,7 @@ function dl(name,data,type){const u=URL.createObjectURL(new Blob([data],{type}))
 function cards(){const lines=S.sum.split('\n').filter(l=>/^[-*] /.test(l)).map(l=>l.replace(/^[-*] /,'').replace(/[`*]/g,''));return S.kw.map(k=>{const l=lines.find(x=>new RegExp('\\b'+k+'\\b','i').test(x));return l&&[`Explain: ${k}`,l]}).filter(Boolean)}
 $$('.exp button').forEach(b=>b.onclick=async()=>{if(!S.sum)return;const x=b.dataset.x;
   if(x==='copy'){await navigator.clipboard.writeText(S.sum);b.textContent='Copied ✓';setTimeout(()=>b.textContent='Copy',1200)}
-  if(x==='md')dl('omniparse-summary.md',`# OmniParse AI Summary\n\n**Keywords:** ${S.kw.join(', ')}\n\n${S.sum}\n\n---\n*Designed and Developed by Nikhil Chary Sriramoju*\n`,'text/markdown');
+  if(x==='md')dl('omniparse-summary.md',`# OmniParse AI Summary\n\n**Keywords:** ${S.kw.join(', ')}\n\n${S.sum}\n\n---\n*Designed and Developed by NIKHIL CHARY SRIRAMOJU*\n`,'text/markdown');
   if(x==='txt')dl('omniparse-summary.txt',S.sum.replace(/[#*`]/g,''),'text/plain');
   if(x==='pdf')window.print();
   if(x==='anki'){const q=s=>'"'+s.replace(/"/g,'""')+'"';dl('omniparse-flashcards.csv',cards().map(c=>c.map(q).join(',')).join('\n'),'text/csv')}});
