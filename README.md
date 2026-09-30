@@ -1,7 +1,17 @@
-# OmniParse AI — Agentic Code & Theory Summarizer
+# SUMMERIZE_AI — Agentic Code & Theory Summarizer
 **Live:** https://nikhil-creat.github.io/summerize_ai/
 
 OmniParse AI compresses long source code and technical theory into short, meaningful summaries without losing the logic. A team of AI agents (Planner, Extractor, Compressor, Verifier, Editor) writes the summary, then checks length, your focus keywords and unverified identifiers before showing it.
+
+*Designed and Developed by*
+# **NIKHIL CHARY SRIRAMOJU**
+BTech CSE (Final Year)
+
+- GitHub: [Nikhil-creat](https://github.com/Nikhil-creat)
+- LinkedIn: [nikhil-chary-sriramoju](https://in.linkedin.com/in/nikhil-chary-sriramoju-95041b38a)
+- Email: sriramojunikhil66@gmail.com
+- Instagram: [@nikhil__sriramoju](https://www.instagram.com/nikhil__sriramoju)
+- Facebook: [Profile](https://www.facebook.com/profile.php?id=100079201124141)
 
 ## Features
 - Length slider (10–90%) with presets, output styles (Executive, Beginner, Interview Q&A, Cheat-sheet, Code review) and languages (English, Telugu, Hindi, Tamil, Spanish)
@@ -25,4 +35,4 @@ No build step. Paths are relative, so renaming the repo needs no code changes.
 Vanilla JS, HTML5 Canvas, PDF.js, Service Worker, GitHub Pages.
 
 ## License
-MIT © Nikhil Chary Sriramoju
+MIT © NIKHIL CHARY SRIRAMOJU 
